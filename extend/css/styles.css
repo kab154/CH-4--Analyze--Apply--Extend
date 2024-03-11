@@ -1,6 +1,6 @@
 /*
-Author: Maria Cruz
-Date: Current Date
+Author: kevin bolanos 
+Date: 3/1/24
 File Name: styles.css
 */
 
@@ -59,8 +59,46 @@ main a {
 
 /* Orange */
 
+.orange-hex{
+    background-color: #ffa800 ;
+}
 
+.orange-rgb{
+    background-color:   rgb(255, 128, 0);
+}
+
+.orange-hsl{
+    background-color:hsl(30, 100%, 50%);
+}
 /* Purple */
 
+.purple-hex{
+    background-color: #8000ff;
+}
+
+.purple-rgb{
+    background-color:rgb(128, 0, 255) ;
+
+}
+
+.purple-hsl{
+    background-color: hsl(270, 100%, 50%);
+
+}
 
 /* Green */
+
+.green-hex{
+    background-color: #80ff00;
+
+}
+
+.green-rgb{
+    background-color: rgb(128, 255, 0);
+
+}
+
+.green-hsl{
+    background-color:hsl(90, 100%, 50%) ;
+
+}
