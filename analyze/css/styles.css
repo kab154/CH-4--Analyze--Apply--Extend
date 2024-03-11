@@ -12,7 +12,7 @@ body,header,nav,main,footer,img,h1,h3{
 }
 
 #css1, #css2, #css3 {
-    width: horizontal;
+    text-align: horizontal;
     width: 40%;
     float: left;
     padding: 1%;
@@ -75,7 +75,7 @@ nav li {
     font-size: 1.5em; 
     font-family: Verdana, Arial, sans-serif; 
     font-weight: bold;
-    inline-size: none;
+    text-decoration-line: none;
 } 
 nav li a { 
     display: block; 
