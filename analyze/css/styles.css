@@ -12,7 +12,7 @@ body,header,nav,main,footer,img,h1,h3{
 }
 
 #css1, #css2, #css3 {
-    display: inline-block;
+    text-orientation: horizontal;
     width: 40%;
     float: left;
     padding: 1%;
