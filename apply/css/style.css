@@ -1,0 +1,70 @@
+/* 	
+	Student Name: Kevin Bolanos
+	File Name: apply
+	Date: 3/2/24
+*/
+
+/* CSS Reset */
+body,header,nav,main,footer,img,h1,h3{
+    margin:0
+    padding:0
+    border:0
+}
+
+/* Style rule for body ans imgage */
+
+body{
+    background-color: #e3eaf8;
+}
+img{
+max-width: 100%;
+}
+
+/*  Style rule for main content */
+
+main{
+    padding:2%;
+    font-family: geneva, arial, sans-serif,  ; 
+    overflow: auto
+}
+
+main p{
+    font-size: 1.25em;
+
+}
+
+main h3{
+    padding: 2%;
+    font-size: 2em;
+}
+
+id{
+    width: 45%;
+    float: right;
+}
+
+.external > select{
+    color: #e3eaf8;
+    text-decoration: remove;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+/*  style rule for footer content */
+
+    footer {
+    text-align: center;
+    font-size: 0.85;
+    background-color: #1d396d;
+    color: #e3eaf8;
+    padding-top: 1% ;
+    padding-bottom: 1%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+    footer a{
+    color: #e3eaf8;
+    text-decoration: remove;
+}
