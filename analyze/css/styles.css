@@ -1,30 +1,42 @@
+/* 	
+	Student Name: Kevin Bolanos
+	File Name: css: apply
+	Date: 3/2/24
+*/
+
+/* CSS Reset */
+body,header,nav,main,footer,img,h1,h3{
+    margin:0
+    padding:0
+    border:0
+}
+
 #css1, #css2, #css3 {
+    width: horizontal;
     width: 40%;
     float: left;
-    padding: 0 1%;
-}footer {
+    padding: 1%;
+}
+/* footer */
+footer {
     text-align: center;
     font-size: 0.85em;
     color: #47476b;
-    padding: 1% 0;
+    padding: 1% ;
     border-top: 3px solid #47476b;
-}body {
+    float: left;
+}
+/* body */
+body {
     padding 2%;
     background-color: #d1d1e0;
-} main {
+} 
+/* main */
+main {
     padding: 2%;
     font-family: Geneva, Arial, sans-serif;
-} header h1 {
-    font-size: 3em;
-    font-family: Georgia, Times, serif;
-    padding: 3%;
-    color: #47476b;
-} nav {
-    background-color: #47476b;
-} nav ul { margin: 0;} nav li {
-    display: block;
-    font-size: 1.5em; font-family: Verdana, Arial, sans-serif; font-weight: bold;
-} nav li a { display: block; color: #e3eaf8; padding: 0.5em 2em; }
+    overflow: auto;
+} 
 
 main p {
     font-size: 1.25em;
@@ -33,3 +45,39 @@ main h3 {
     padding-top: 2%;
     font-size: 2em;
 }
+
+.anchor{
+    color: #47476b;
+    text-decoration-line: none;
+    font-weight: bold;
+    font-style: italic;
+}
+/* header */
+header h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: Georgia, Times, serif;
+    padding: 3%;
+    color: #47476b;
+} 
+
+/* nav */
+nav {
+    background-color: #47476b;
+} 
+
+nav ul { 
+    margin: 0;
+} 
+
+nav li {
+    display: block;
+    font-size: 1.5em; 
+    font-family: Verdana, Arial, sans-serif; 
+    font-weight: bold;
+    inline-size: none;
+} 
+nav li a { 
+    display: block; 
+    color: #e3eaf8; 
+    padding: 0.5em 2em; }
