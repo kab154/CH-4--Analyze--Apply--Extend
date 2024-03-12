@@ -70,6 +70,7 @@ nav {
 nav ul { 
     margin: 0;
     text-decoration: none;
+    width: 25%;
 } 
 
 nav li {
