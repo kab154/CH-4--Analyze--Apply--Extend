@@ -6,14 +6,13 @@
 
 /* CSS Reset */
 body,header,nav,main,footer,img,h1,h3{
-    rotate: horizontal;
     margin:0
     padding:0
     border:0
 }
 
 #css1, #css2, #css3 {
-    width: 100;
+    column-width: 40;
     float: left;
     padding: 1%;
 }
