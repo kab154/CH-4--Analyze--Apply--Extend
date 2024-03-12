@@ -70,7 +70,7 @@ nav {
 nav ul { 
     margin: 0;
     text-decoration: none;
-    width: 25%;
+    
 } 
 
 nav li {
@@ -79,10 +79,13 @@ nav li {
     font-family: Verdana, Arial, sans-serif; 
     font-weight: bold;
     text-decoration: none;
+    width: 25%;
     
 } 
 nav li a { 
     display: block; 
     color: #e3eaf8; 
     padding: 0.5em 2em; 
-    text-decoration: none;}
+    text-decoration: none;
+    width: 25%;}
+
