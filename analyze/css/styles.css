@@ -13,7 +13,7 @@ body,header,nav,main,footer,img,h1,h3{
 }
 
 #css1, #css2, #css3 {
-    width: 40;
+    width: 25;
     float: left;
     padding: 1%;
     display: inline-block
