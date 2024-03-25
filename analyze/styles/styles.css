@@ -63,13 +63,12 @@ header h1 {
 /* nav */
 nav {
     background-color: #47476b;
-    width: 25%
 } 
 
 nav ul { 
     margin: 0;
     text-decoration: none;
-    max-width: 25%;
+    inset-block:horizontal ;
 } 
 
 nav li {
