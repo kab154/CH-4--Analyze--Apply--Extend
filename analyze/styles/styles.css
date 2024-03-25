@@ -68,7 +68,7 @@ nav {
 nav ul { 
     margin: 0;
     text-decoration: none;
-    inset-block:horizontal ;
+    inset-block: vertical ;
 } 
 
 nav li {
